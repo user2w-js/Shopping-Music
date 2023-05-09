@@ -8,11 +8,11 @@
 // ==/UserScript==
 
 // Audio "Jan 2016"
-let l = 'https://cdn.discordapp.com/attachments/blah/thisisjustanexample'; // link, USE QUOTES!
+let l = 'https://cdn.discordapp.com/attachments/896227233713258526/1105638913118318623/teststory.mp3'; // link, USE QUOTES!
 let v = 0.09; // volume
 
 //Don't modify the x varible!!!!!!!!!!!
-let x = 10000000;
+let x = 100;
 (function() {
     let isFunctionRunning = false;
     let myAudioElement;
@@ -20,7 +20,7 @@ let x = 10000000;
     function refreshData() {
         myAudioElement = new Audio(l);
         myAudioElement.volume = v;
-
+        myAudioElement.loop = true;
         if (window.sessionStorage.getItem('music_time')) {
             myAudioElement.currentTime = window.sessionStorage.getItem('music_time');
         }
@@ -30,10 +30,6 @@ let x = 10000000;
         setInterval(() => {
             window.sessionStorage.setItem('music_time', myAudioElement.currentTime);
         }, 100);
-
-        setTimeout(() => {
-            isFunctionRunning = false;
-        }, x * 1000);
     }
 
     function startRefreshData() {
