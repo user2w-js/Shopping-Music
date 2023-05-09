@@ -1,7 +1,7 @@
 # Shopping-Music
 Get music while you shop
 
-To start, you will need to download the "TamperMonkey" Add-On
+To start, you will need to download the "TamperMonkey" Add-On (This should work on the mobile version of firefox).
 
 https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/
 https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
