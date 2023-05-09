@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      2.013
 // @description  Play audio on Amazon pages at a regular interval
-// @match        https://www.amazon.com
+// @match        https://www.amazon.com/*
 // @grant        none
 // ==/UserScript==
 
