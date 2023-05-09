@@ -12,18 +12,20 @@ Now that you have that script pasted, you can configure it
 
 # CONFIG
 
-Changing the link, if you want to change the link then you need to change the @match to your link
+## Changing the link
+if you want to change the link then you need to change the @match to your link
 ```js 
 
 // @match        https://www.amazon.com  <----HERE
 ```
 
-If you would like to add more than 1 link, then add more than 1 @match
+If you would like to add more than 1 link, then add more than. Also make sure you put /* at the end of the link, so it plays no matter what page you are on EX. Google.com would limit you to google.com but google.com/* would let you go to google.com/activate and it would still work.
 
 ```js
-// @match        https://www.amazon.com
-// @match        https://www.google.com  <----HERE
+// @match        https://www.amazon.com/*
+// @match        https://www.google.com/*  <----HERE
 ```
+
 ## Changing the song
 
 the song is under the l variable
