@@ -11,8 +11,6 @@
 let l = 'https://cdn.discordapp.com/attachments/896227233713258526/1105638913118318623/teststory.mp3'; // link, USE QUOTES!
 let v = 0.09; // volume
 
-//Don't modify the x varible!!!!!!!!!!!
-let x = 100;
 (function() {
     let isFunctionRunning = false;
     let myAudioElement;
@@ -62,3 +60,5 @@ let x = 100;
         }
     });
 })();
+let x = undefined;
+// x had been xiled (haha get the joke) because it is overused, and we need to be more creative
