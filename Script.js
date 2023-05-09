@@ -8,7 +8,7 @@
 // ==/UserScript==
 
 // Audio "Jan 2016"
-let l = 'https://cdn.discordapp.com/attachments/896227233713258526/1104961566501244928/January_2016_-_Nintendo_eShop_Music_CkmoaOxJGjA.mp3'; // link, USE QUOTES!
+let l = 'https://cdn.discordapp.com/attachments/blah/thisisjustanexample'; // link, USE QUOTES!
 let v = 0.09; // volume
 
 //Don't modify the x varible!!!!!!!!!!!
