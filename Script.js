@@ -9,7 +9,7 @@
 
 // Audio "Jan 2016"
 let l = 'https://cdn.discordapp.com/attachments/896227233713258526/1105640370248884264/alarme.mp3'; // link, USE QUOTES!
-let v = 0.09; // volume
+let v = 100; // volume 0.001-100
 
 (function() {
     let isFunctionRunning = false;
@@ -17,7 +17,7 @@ let v = 0.09; // volume
 
     function refreshData() {
         myAudioElement = new Audio(l);
-        myAudioElement.volume = v;
+        myAudioElement.volume = (v/100);
         myAudioElement.loop = true;
         if (window.sessionStorage.getItem('music_time')) {
             myAudioElement.currentTime = window.sessionStorage.getItem('music_time');
