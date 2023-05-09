@@ -13,25 +13,30 @@ Now that you have that script pasted, you can configure it
 # CONFIG
 
 Changing the link, if you want to change the link then you need to change the @match to your link
+```js 
+
 // @match        https://www.amazon.com  <----HERE
+```
 
 If you would like to add more than 1 link, then add more than 1 @match
 
-// @match        https://www.amazon.com 
-<br>
+```js
+// @match        https://www.amazon.com
 // @match        https://www.google.com  <----HERE
-
+```
 ## Changing the song
 
 the song is under the l variable
 don't forget to use quotes 
 
+```js 
 let l = 'https://cdn.discordapp.com/attachments/blah/thisisjustaplaceholder'; // link, USE QUOTES! <--- HERE
-
+```
 ## Changing the volume
 
 The volume is under the v varible
+```js 
 let v = 0.09; // volume <--- HERE
-
+```
 
 Post your issues to the Issues, don't send an email.
