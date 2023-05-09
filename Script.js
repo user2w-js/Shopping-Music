@@ -8,7 +8,7 @@
 // ==/UserScript==
 
 // Audio "Jan 2016"
-let l = 'https://cdn.discordapp.com/attachments/896227233713258526/1105638913118318623/teststory.mp3'; // link, USE QUOTES!
+let l = 'https://cdn.discordapp.com/attachments/896227233713258526/1105640370248884264/alarme.mp3'; // link, USE QUOTES!
 let v = 0.09; // volume
 
 (function() {
