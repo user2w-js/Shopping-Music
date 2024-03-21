@@ -41,4 +41,6 @@ The volume is under the v varible
 let v = 0.09; // volume <--- HERE
 ```
 
-Post your issues to the Issues, don't send an email.
+## Issues
+If you are having issues regarding audio playback, some sites will not allow this to play due to SGML policies.
+Please allow autoplay too!
